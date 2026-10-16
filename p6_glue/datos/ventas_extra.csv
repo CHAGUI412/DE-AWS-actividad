@@ -1,0 +1,7 @@
+id_venta,fecha,ciudad,codigo_postal,producto,categoria,cantidad,precio_unitario
+23,2026-09-12,Medellín,050001,Portátil 15,computadores,1,3400000
+24,2026-09-12,Barranquilla,080001,Monitor 27,pantallas,2,980000
+25,2026-09-13,Envigado,055420,Audífonos,audio,1,210000
+26,2026-09-13,Cali,760001,Micrófono USB,audio,2,260000
+27,2026-09-14,Bogotá,110111,Webcam HD,perifericos,1,120000
+28,2026-09-14,Medellín,050001,Hub USB-C,accesorios,3,95000

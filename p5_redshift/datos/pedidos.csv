@@ -1,0 +1,31 @@
+id_pedido,id_cliente,fecha,producto,categoria,cantidad,precio_unitario
+1001,1,2026-01-05,Mouse inalámbrico,perifericos,1,65000
+1002,3,2026-01-07,Monitor 24,pantallas,4,620000
+1003,5,2026-01-09,Portátil 14,computadores,3,2900000
+1004,2,2026-01-12,Audífonos,audio,1,210000
+1005,8,2026-01-15,Teclado mecánico,perifericos,10,180000
+1006,4,2026-01-18,Webcam HD,perifericos,1,120000
+1007,1,2026-01-22,Hub USB-C,accesorios,2,95000
+1008,10,2026-01-25,Parlante bluetooth,audio,2,150000
+1009,12,2026-02-01,Portátil 15,computadores,5,3400000
+1010,6,2026-02-03,Monitor 27,pantallas,1,980000
+1011,7,2026-02-06,Micrófono USB,audio,1,260000
+1012,3,2026-02-09,Base refrigerante,accesorios,6,85000
+1013,9,2026-02-12,Mouse inalámbrico,perifericos,2,65000
+1014,5,2026-02-15,Monitor 24,pantallas,6,620000
+1015,11,2026-02-19,Audífonos,audio,1,210000
+1016,2,2026-02-23,Portátil 14,computadores,1,2900000
+1017,8,2026-02-26,Hub USB-C,accesorios,15,95000
+1018,4,2026-03-02,Teclado mecánico,perifericos,1,180000
+1019,12,2026-03-05,Monitor 27,pantallas,3,980000
+1020,1,2026-03-08,Micrófono USB,audio,1,260000
+1021,6,2026-03-11,Webcam HD,perifericos,2,120000
+1022,10,2026-03-14,Base refrigerante,accesorios,4,85000
+1023,7,2026-03-18,Portátil 15,computadores,1,3400000
+1024,9,2026-03-21,Parlante bluetooth,audio,1,150000
+1025,5,2026-03-24,Teclado mecánico,perifericos,8,180000
+1026,3,2026-03-27,Portátil 14,computadores,2,2900000
+1027,11,2026-03-30,Hub USB-C,accesorios,1,95000
+1028,2,2026-04-02,Mouse inalámbrico,perifericos,3,65000
+1029,12,2026-04-05,Audífonos,audio,6,210000
+1030,8,2026-04-08,Monitor 24,pantallas,2,620000

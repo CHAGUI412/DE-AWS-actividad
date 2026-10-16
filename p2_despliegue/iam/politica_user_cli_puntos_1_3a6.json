@@ -1,0 +1,141 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "SecretsManagerTaller",
+      "Effect": "Allow",
+      "Action": [
+        "secretsmanager:CreateSecret",
+        "secretsmanager:PutSecretValue",
+        "secretsmanager:DeleteSecret",
+        "secretsmanager:DescribeSecret",
+        "secretsmanager:GetSecretValue",
+        "secretsmanager:ListSecretVersionIds",
+        "secretsmanager:TagResource",
+        "secretsmanager:RotateSecret",
+        "secretsmanager:UpdateSecret",
+        "secretsmanager:CancelRotateSecret"
+      ],
+      "Resource": "*"
+    },
+    {
+      "Sid": "SecretsManagerGlobales",
+      "Effect": "Allow",
+      "Action": [
+        "secretsmanager:ListSecrets",
+        "secretsmanager:GetRandomPassword"
+      ],
+      "Resource": "*"
+    },
+    {
+      "Sid": "RolesDelTaller",
+      "Effect": "Allow",
+      "Action": [
+        "iam:CreateRole",
+        "iam:DeleteRole",
+        "iam:GetRole",
+        "iam:PutRolePolicy",
+        "iam:DeleteRolePolicy",
+        "iam:AttachRolePolicy",
+        "iam:DetachRolePolicy",
+        "iam:ListRolePolicies",
+        "iam:ListAttachedRolePolicies",
+        "iam:PassRole",
+        "iam:TagRole"
+      ],
+      "Resource": "arn:aws:iam::*:role/de-aws-*"
+    },
+    {
+      "Sid": "AsumirRolLectorP1",
+      "Effect": "Allow",
+      "Action": "sts:AssumeRole",
+      "Resource": "arn:aws:iam::*:role/de-aws-lector-p1"
+    },
+    {
+      "Sid": "DocumentDBYNeptuneUsanApiRDS",
+      "Effect": "Allow",
+      "Action": [
+        "rds:CreateDBCluster",
+        "rds:DeleteDBCluster",
+        "rds:ModifyDBCluster",
+        "rds:CreateDBInstance",
+        "rds:DeleteDBInstance",
+        "rds:ModifyDBInstance",
+        "rds:CreateDBSubnetGroup",
+        "rds:DeleteDBSubnetGroup",
+        "rds:AddTagsToResource",
+        "rds:ListTagsForResource",
+        "rds:Describe*"
+      ],
+      "Resource": "*"
+    },
+    {
+      "Sid": "RolesVinculadosPrimeraVez",
+      "Effect": "Allow",
+      "Action": "iam:CreateServiceLinkedRole",
+      "Resource": "*",
+      "Condition": {
+        "StringLike": {
+          "iam:AWSServiceName": [
+            "rds.amazonaws.com",
+            "redshift.amazonaws.com",
+            "redshift-serverless.amazonaws.com"
+          ]
+        }
+      }
+    },
+    {
+      "Sid": "ConsultasNeptuneConIAM",
+      "Effect": "Allow",
+      "Action": [
+        "neptune-db:connect",
+        "neptune-db:ReadDataViaQuery",
+        "neptune-db:WriteDataViaQuery",
+        "neptune-db:DeleteDataViaQuery",
+        "neptune-db:GetEngineStatus"
+      ],
+      "Resource": "*"
+    },
+    {
+      "Sid": "RedshiftServerlessYDataApi",
+      "Effect": "Allow",
+      "Action": [
+        "redshift-serverless:*",
+        "redshift-data:ExecuteStatement",
+        "redshift-data:BatchExecuteStatement",
+        "redshift-data:DescribeStatement",
+        "redshift-data:GetStatementResult",
+        "redshift-data:ListStatements"
+      ],
+      "Resource": "*"
+    },
+    {
+      "Sid": "GlueYAthena",
+      "Effect": "Allow",
+      "Action": [
+        "glue:CreateDatabase",
+        "glue:DeleteDatabase",
+        "glue:GetDatabase",
+        "glue:GetDatabases",
+        "glue:CreateTable",
+        "glue:DeleteTable",
+        "glue:GetTable",
+        "glue:GetTables",
+        "glue:UpdateTable",
+        "glue:GetPartitions",
+        "glue:BatchGetPartition",
+        "glue:CreateCrawler",
+        "glue:DeleteCrawler",
+        "glue:GetCrawler",
+        "glue:StartCrawler",
+        "glue:UpdateCrawler",
+        "glue:GetCrawlerMetrics",
+        "athena:StartQueryExecution",
+        "athena:GetQueryExecution",
+        "athena:GetQueryResults",
+        "athena:GetWorkGroup"
+      ],
+      "Resource": "*"
+    }
+  ]
+}

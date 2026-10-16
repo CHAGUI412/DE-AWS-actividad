@@ -1,0 +1,13 @@
+id_cliente,nombre,ciudad,segmento,fecha_registro
+1,Camila Restrepo,Medellín,persona,2025-02-11
+2,Andrés Gómez,Bogotá,persona,2025-03-05
+3,Ferretería El Tornillo,Barranquilla,empresa,2025-01-20
+4,Valentina Ríos,Cali,persona,2025-04-18
+5,Distribuidora Andina,Medellín,empresa,2024-11-30
+6,Santiago Pérez,Bogotá,persona,2025-06-02
+7,Laura Mejía,Medellín,persona,2025-07-14
+8,Papelería Central,Bogotá,empresa,2024-12-09
+9,Daniel Castro,Barranquilla,persona,2025-05-22
+10,Café La Montaña,Cali,empresa,2025-02-27
+11,Mariana Ospina,Medellín,persona,2025-08-03
+12,Tecnología Caribe,Barranquilla,empresa,2025-03-16

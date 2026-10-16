@@ -1,0 +1,30 @@
+# credenciales y llaves, nunca al repo
+.env
+*.env
+!*.env.example
+*.pem
+*.key
+credentials
+config
+
+# terraform: estado y plugins (el estado puede tener datos sensibles)
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+crash.log
+terraform.tfvars
+.terraform.lock.hcl
+
+# archivos de estado que generan los scripts (ids de recursos)
+estado*.json
+estado*.env
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# certificado de documentdb (se descarga, no se versiona)
+global-bundle.pem

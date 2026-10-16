@@ -1,0 +1,23 @@
+id_venta,fecha,ciudad,codigo_postal,producto,categoria,cantidad,precio_unitario
+1,2026-09-01,Medellín,050001,Mouse inalámbrico,perifericos,2,65000
+2,2026-09-01,Bogotá,110111,Monitor 24,pantallas,1,620000
+3,2026-09-02,Barranquilla,080001,Audífonos,audio,3,210000
+4,2026-09-02,Cali,760001,Teclado mecánico,perifericos,1,180000
+5,2026-09-03,Medellín,050001,Portátil 14,computadores,1,2900000
+6,2026-09-03,Envigado,055420,Webcam HD,perifericos,2,120000
+7,2026-09-04,Bogotá,110111,Hub USB-C,accesorios,4,95000
+8,2026-09-04,Barranquilla,080001,Parlante bluetooth,audio,1,150000
+9,2026-09-05,Medellín,050001,Micrófono USB,audio,1,260000
+10,2026-09-05,Cali,760001,Monitor 27,pantallas,1,980000
+11,2026-09-06,Envigado,055420,Base refrigerante,accesorios,3,85000
+12,2026-09-06,Bogotá,110111,Portátil 15,computadores,1,3400000
+13,2026-09-07,Barranquilla,080001,Mouse inalámbrico,perifericos,5,65000
+14,2026-09-07,Medellín,050001,Audífonos,audio,2,210000
+15,2026-09-08,Cali,760001,Hub USB-C,accesorios,1,95000
+16,2026-09-08,Bogotá,110111,Teclado mecánico,perifericos,3,180000
+17,2026-09-09,Medellín,050001,Monitor 24,pantallas,2,620000
+18,2026-09-09,Barranquilla,080001,Portátil 14,computadores,1,2900000
+19,2026-09-10,Envigado,055420,Micrófono USB,audio,1,260000
+20,2026-09-10,Cali,760001,Webcam HD,perifericos,2,120000
+21,2026-09-11,Bogotá,110111,Parlante bluetooth,audio,2,150000
+22,2026-09-11,Medellín,050001,Base refrigerante,accesorios,1,85000
